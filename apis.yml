@@ -1,8 +1,29 @@
 aid: kespry
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kespry.png
 name: Kespry
-description: Kespry is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Kespry was an industrial drone and aerial-intelligence company founded in the
+  San Francisco Bay Area that paired automated fixed-perimeter drones with a
+  cloud analytics platform to turn aerial imagery into measurable data. Its
+  product was used for stockpile and inventory volumetrics in mining and
+  aggregates, construction-site progress monitoring and earthworks, and insurance
+  roof inspection. Backed by Lightspeed Venture Partners, Kespry was acquired by
+  Firmatek in 2020 and the brand has since been retired; the former developer and
+  marketing domain kespry.com now issues a 301 redirect to firmatek.com. This
+  profile is retained in the API Evangelist network for lineage and portfolio
+  mapping, but Kespry publishes no live, standalone developer surface, API,
+  documentation, or client SDKs of its own.
 url: https://raw.githubusercontent.com/api-evangelist/kespry/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +31,33 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: firmatek
+x-acquired-year: 2020
+x-domain-status: redirect
+x-domain-redirect: https://firmatek.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Drones
+- Aerial Intelligence
+- Geospatial
+- Mining
+- Aggregates
+- Construction
+- Insurance
+- Volumetrics
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
